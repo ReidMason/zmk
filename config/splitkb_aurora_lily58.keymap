@@ -31,7 +31,7 @@
 &trans     &trans    &trans     &trans            &trans         &trans                       &trans      &trans    &trans    &trans     &trans    &trans
 &kp CARET  &kp AMPS  &kp LBKT   &kp LBRC          &kp LPAR       &kp UNDER                    &kp DOLLAR  &kp RPAR  &kp RBRC  &kp RBKT   &kp PIPE  &kp BACKSPACE
 &trans     &kp EXCL  &kp ASTRK  &kp COLON         &kp EQUAL      &kp PRCNT                    &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT  &kp SEMI  &kp GRAVE
-&trans     &trans    &kp AMPS   &kp LA(NUMBER_3)  &kp BACKSLASH  &kp MINUS  &trans    &trans  &kp PLUS    &trans    &trans    &kp TILDE  &kp BSLH  &trans
+&trans     &trans    &kp AT     &kp LA(NUMBER_3)  &kp BACKSLASH  &kp MINUS  &trans    &trans  &kp PLUS    &trans    &trans    &kp TILDE  &kp BSLH  &trans
                                 &trans            &trans         &trans     &trans    &trans  &trans      &trans    &trans
             >;
 
