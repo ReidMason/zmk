@@ -65,7 +65,7 @@
 //    ╭─────┬─────┬─────┬─────┬─────┬─────╮                   ╭─────┬─────┬─────┬─────┬─────┬─────╮
 //    │     │     │     │     │     │     │                   │     │     │     │     │     │     │
 //    ├─────┼─────┼─────┼─────┼─────┼─────┤                   ├─────┼─────┼─────┼─────┼─────┼─────┤
-//    │     │     │     │     │     │     │                   │     │  7  │  8  │  9  │     │     │
+//    │     │     │     │     │     │     │                   │     │  7  │  8  │  9  │     │ del │
 //    ├─────┼─────┼─────┼─────┼─────┼─────┤                   ├─────┼─────┼─────┼─────┼─────┼─────┤
 //    │ f1  │ f2  │ f3  │ f4  │ f5  │ f6  │                   │     │  4  │  5  │  6  │     │     │
 //    ├─────┼─────┼─────┼─────┼─────┼─────┼─────╮       ╭─────┼─────┼─────┼─────┼─────┼─────┼─────┤
@@ -73,11 +73,11 @@
 //    ╰─────┴─────┴─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┴─────┴─────╯
 //                      │     │     │     │     │       │     │     │     │     │                  
 //                      ╰─────┴─────┴─────┴─────╯       ╰─────┴─────┴─────┴─────╯                  
-  &trans   &trans   &trans   &trans    &trans    &trans                              &trans         &trans         &trans         &trans         &trans   &trans
-  &trans   &trans   &trans   &trans    &trans    &trans                              &trans         &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &trans   &trans
-  &kp F1   &kp F2   &kp F3   &kp F4    &kp F5    &kp F6                              &trans         &kp NUMBER_4   &kp N5         &kp NUMBER_6   &trans   &trans
-  &kp F7   &kp F8   &kp F9   &kp F10   &kp F11   &kp F12   &trans           &trans   &kp NUMBER_0   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &trans   &trans
-                             &trans    &trans    &trans    &trans           &trans   &trans         &trans         &trans                                       
+  &trans   &trans   &trans   &trans    &trans    &trans                              &trans         &trans         &trans         &trans         &trans   &trans 
+  &trans   &trans   &trans   &trans    &trans    &trans                              &trans         &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &trans   &kp DEL
+  &kp F1   &kp F2   &kp F3   &kp F4    &kp F5    &kp F6                              &trans         &kp NUMBER_4   &kp N5         &kp NUMBER_6   &trans   &trans 
+  &kp F7   &kp F8   &kp F9   &kp F10   &kp F11   &kp F12   &trans           &trans   &kp NUMBER_0   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &trans   &trans 
+                             &trans    &trans    &trans    &trans           &trans   &trans         &trans         &trans                                        
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
