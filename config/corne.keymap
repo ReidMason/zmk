@@ -55,10 +55,10 @@
 
         lower_layer {
             bindings = <
-&kp CARET  &none      &kp LBKT  &kp LBRC          &kp LPAR   &kp UNDER    &kp DOLLAR  &kp RPAR   &kp RBRC  &kp RBKT   &trans    &kp BSPC
-&trans     &kp ASTRK  &kp EXCL  &kp COLON         &kp EQUAL  &kp PRCNT    &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT  &trans    &kp GRAVE
-&trans     &kp AMPS   &kp AT    &kp LA(NUMBER_3)  &kp PIPE   &kp MINUS    &kp PLUS    &kp TILDE  &trans    &trans     &kp BSLH  &trans
-                                &trans            &trans     &trans       &trans      &trans     &trans
+&kp CARET  &none                  &kp LBKT                &kp LBRC             &kp LPAR             &kp UNDER    &kp DOLLAR  &kp RPAR   &kp RBRC  &kp RBKT   &trans    &kp BSPC
+&trans     &hml LEFT_SHIFT ASTRK  &hml LEFT_CONTROL EXCL  &hml LEFT_ALT COLON  &hml LEFT_GUI EQUAL  &kp PRCNT    &kp LEFT    &kp DOWN   &kp UP    &kp RIGHT  &trans    &kp GRAVE
+&trans     &kp AMPS               &kp AT                  &kp LA(NUMBER_3)     &kp PIPE             &kp MINUS    &kp PLUS    &kp TILDE  &trans    &trans     &kp BSLH  &trans
+                                                          &trans               &trans               &trans       &trans      &trans     &trans
             >;
         };
 
